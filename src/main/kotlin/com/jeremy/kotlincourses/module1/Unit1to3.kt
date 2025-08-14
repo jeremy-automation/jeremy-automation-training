@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlincourses
+package org.example.com.jeremy.kotlincourses.module1
 
 fun main () {
     assignment1()
@@ -76,18 +76,18 @@ fun assignment8(){
     // Assignment 8: val Reassignment Error
 
     // Original code with error
-        /**fun main() {
-        val balance = 100
-        balance = 120 // Error here
-        println(balance)
-        }
+    /**fun main() {
+    val balance = 100
+    balance = 120 // Error here
+    println(balance)
+    }
 
-        Answer: We cannot assign a new value to balance because it is define as an immutable object by using "val". To re-use this, we must use "var" **/
+    Answer: We cannot assign a new value to balance because it is define as an immutable object by using "val". To re-use this, we must use "var" **/
 
     // Fixed code
-        var balance = 100
-        balance = 120 // Error here
-        println(balance)
+    var balance = 100
+    balance = 120 // Error here
+    println(balance)
 }
 
 fun assignment9(){

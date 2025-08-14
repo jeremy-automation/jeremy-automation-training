@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlincourses
+package org.example.com.jeremy.kotlincourses.module1
 
 fun main() {
     activity1()

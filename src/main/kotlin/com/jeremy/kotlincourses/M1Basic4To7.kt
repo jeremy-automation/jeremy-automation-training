@@ -9,7 +9,7 @@ fun main() {
 }
 
 fun activity1() {
-   // 1. Conditional Statements (if/else)
+    // 1. Conditional Statements (if/else)
 
     // Task 1
     val number = 3
@@ -103,5 +103,4 @@ fun activity5() {
         sum = sum + number
     }
     println("Sum is $sum")
-    
 }

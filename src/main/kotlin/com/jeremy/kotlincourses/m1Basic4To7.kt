@@ -1,10 +1,10 @@
 package org.example.com.jeremy.kotlincourses
 
 fun main() {
-//    activity1()
-//    activity2()
-//    activity3()
-//    activity4()
+    activity1()
+    activity2()
+    activity3()
+    activity4()
     activity5()
 }
 

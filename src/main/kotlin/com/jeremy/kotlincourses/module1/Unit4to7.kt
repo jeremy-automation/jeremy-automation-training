@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlincourses
+package org.example.com.jeremy.kotlincourses.module1
 
 fun main() {
     activity1()
@@ -9,7 +9,7 @@ fun main() {
 }
 
 fun activity1() {
-   // 1. Conditional Statements (if/else)
+    // 1. Conditional Statements (if/else)
 
     // Task 1
     val number = 3

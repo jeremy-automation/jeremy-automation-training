@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlincourses.chapter2.Unit1to5
+package org.example.com.jeremy.kotlincourses.module2.Unit1to5
 
 fun main() {
     // Unit 6: Function Type

@@ -1,12 +1,12 @@
-package org.example.com.jeremy.kotlincourses.chapter2.Unit1to5
+package org.example.jeremy.kotlincourses.chapter2
 
 fun main() {
     // Unit 6: Function Type
     println("Unit 6: Function Type")
     greet()
-    println(multiplyUnitSix(4,5))
+    println(multiplyOp(4,5))
 
-    var operation: (Int, Int) -> Int = ::multiplyUnitSix
+    var operation: (Int, Int) -> Int = ::multiplyOp
     val result1 = operation(4,3)
     println(result1)
 
@@ -18,7 +18,7 @@ fun main() {
     println("Unit 7: High Order Functions")
     action(4,2,::add)
     action(5,3, ::subtract)
-    action(11,9, ::multiplyUnitSix)
+    action(11,9, ::multiplyOp)
 
     val task2 = chooseGreeting(false)
     task2()
@@ -52,8 +52,6 @@ fun main() {
 
     val multiplication = applyOperation(2,1,{x: Int, y: Int -> x * y})
     println(multiplication)
-
-
 }
 
 // Unit 6 Functions
@@ -61,7 +59,7 @@ fun greet(): Unit {
     println("Hello")
 }
 
-fun multiplyUnitSix(x: Int, y: Int) : Int {
+fun multiplyOp(x: Int, y: Int) : Int {
     return x * y
 }
 
@@ -112,7 +110,6 @@ fun doMath(x: Int, y: Int, op: (Int, Int) -> Int) {
 fun getAnonymous(): (Int, Int) -> Int {
     return fun(x: Int, y: Int): Int = x - y
 }
-
 
 // Unit 9 Functions
 fun applyOperation(x: Int, y: Int, op: (Int, Int) -> Int): Int {

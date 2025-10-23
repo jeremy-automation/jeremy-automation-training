@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlincourses.module1
+package org.example.jeremy.kotlincourses.module1
 
 fun main () {
     assignment1()

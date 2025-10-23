@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlincourses.module2.Unit1to5
+package org.example.jeremy.kotlincourses.chapter2
 
 fun  main() {
     // Unit 1. Functions and Their Parameters
@@ -12,7 +12,8 @@ fun  main() {
     addToGroup("Summer", "Steven","Taylor","Cam")
 
     // Unit 3. Returning Results
-    multiply(3,4)
+    val res = multiply(3,4)
+    println(res)
     println(isEven(3))
     printIfPositive(-1)
 
@@ -43,7 +44,6 @@ fun displayUser(name: String, age: Int) {
 fun showMessage(message: String) {
     println(message)
 }
-
 
 // Unit 2 functions
 fun printNumbers(vararg integers: Int) {
@@ -79,6 +79,8 @@ fun printIfPositive(number: Int) {
     if (number > 0 ){
         println(number)
         return
+    } else {
+        println("Number: $number is not positive")
     }
 }
 

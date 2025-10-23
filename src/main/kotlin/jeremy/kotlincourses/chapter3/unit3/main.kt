@@ -1,7 +1,7 @@
 package jeremy.kotlincourses.chapter3.unit3
 
 import jeremy.kotlincourses.chapter3.unit3.mathops.add
-import jeremy.kotlincourses.chapter3.unit3.stringOps.concat
+import jeremy.kotlincourses.chapter3.unit3.stringops.concat
 
 fun main (){
     val res = add(2,3)

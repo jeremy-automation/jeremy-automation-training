@@ -66,9 +66,8 @@ fun addToGroup(groupName: String, vararg userNames: String) {
 }
 
 // Unit 3 functions
-fun multiply(numberOne: Int, numberTwo: Int){
-    var result = numberOne * numberTwo
-    println(result)
+fun multiply(numberOne: Int, numberTwo: Int) : Int {
+    return numberOne * numberTwo
 }
 
 fun isEven(number: Int) : Boolean{
@@ -85,7 +84,7 @@ fun printIfPositive(number: Int) {
 }
 
 // Unit 4 functions
-fun cube(x: Int) = x * x * x
+fun cube(x: Int): Int { return x * x * x}
 
 fun checkAndPrint(x: Int) {
     fun isValid(num: Int) : Boolean {
@@ -123,21 +122,21 @@ fun show(num: Int) {
 
 
 fun max(a: Int, b: Int) : Int {
-    if(a > b){
-        return a
+    return if(a > b){
+        a
     } else {
-        return b
+        b
     }
 }
 
 fun max(a: Double, b: Double) : Double {
-    if(a > b){
-        return a
+    return if(a > b){
+        a
     } else {
-        return b
+        b
     }
 }
 
-fun sum(a: Int, b: Int) = a + b
+fun sum(a: Int, b: Int): Int {return a + b}
 
-fun sum(a: Int, b: Int, c: Int) = a + b + c
+fun sum(a: Int, b: Int, c: Int): Int {return a + b + c}

@@ -2,7 +2,7 @@ package jeremy.kotlincourses.chapter3.unit5.task1
 
 
 fun main () {
-    val bank = BankAccount()
+    val bank = bankaccount()
 
     bank.deposit(200.00)
     val bal = bank.getBalance()

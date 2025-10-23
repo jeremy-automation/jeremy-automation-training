@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlincourses.module3.library
+package jeremy.kotlincourses.chapter3.unit2
 
 class Book(val _title: String, val _author: String) {
 

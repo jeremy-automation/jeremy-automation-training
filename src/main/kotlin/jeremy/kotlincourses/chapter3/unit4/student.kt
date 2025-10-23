@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlinpractice.module3.unit4
+package jeremy.kotlincourses.chapter3.unit4
 
 class Student {
     var age: Int = 0

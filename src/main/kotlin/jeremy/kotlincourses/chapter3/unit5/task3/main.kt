@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlinpractice.module3.unit5.task3
+package jeremy.kotlincourses.chapter3.unit5.task3
 
 fun main() {
     val recipe = Recipe(listOf("Eggs", "Milk", "Sugar"), "Burnt cheesecake")

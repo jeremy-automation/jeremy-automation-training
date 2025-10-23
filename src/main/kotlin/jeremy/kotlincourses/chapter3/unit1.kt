@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlinpractice.module3
+package jeremy.kotlincourses.chapter3
 
 class Dog {
     var name: String = ""

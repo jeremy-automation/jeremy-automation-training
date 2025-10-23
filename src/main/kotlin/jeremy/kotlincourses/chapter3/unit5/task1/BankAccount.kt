@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlinpractice.module3.unit5.task1
+package jeremy.kotlincourses.chapter3.unit5.task1
 
 class BankAccount {
     private var balance: Double = 0.0

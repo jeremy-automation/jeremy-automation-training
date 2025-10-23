@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlincourses.module3
+package jeremy.kotlincourses.chapter3
 
 fun main() {
     val bob: studentAccount = studentAccount()

@@ -1,4 +1,4 @@
-package org.example.com.jeremy.kotlinpractice.module3.unit5.task2
+package jeremy.kotlincourses.chapter3.unit5.task2
 
 fun main () {
     val person = Person("Flores")
